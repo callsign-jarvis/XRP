@@ -130,4 +130,4 @@ if __name__ == "__main__":
     mqtt_client.loop_start()
 
     # Run the Flask app
-    app.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=80)
