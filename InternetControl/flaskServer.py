@@ -5,10 +5,10 @@ import paho.mqtt.client as mqtt
 app = Flask(__name__)
 
 # --- MQTT Configuration ---
-MQTT_BROKER = "2492f22e32e143fea079659ab402781e.s1.eu.hivemq.cloud"
+MQTT_BROKER = "mqttbroker url"
 MQTT_PORT = 8883
 MQTT_USER = "temps"
-MQTT_PASSWORD = "Digikey@2024"
+MQTT_PASSWORD = "password"
 MQTT_TOPIC = "test/topic"
 
 # HTML Template (Joystick Interface with "+" Layout and Styled Buttons)
