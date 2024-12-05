@@ -29,13 +29,7 @@ MQTT_PORT = 8883
 MQTT_TOPIC = "test/topic"
 MQTT_USER = "temps"
 MQTT_PASSWORD = "password"
-'''  
-# MQTT Configuration
-BROKER = ""#"u4cc4b93.ala.asia-southeast1.emqxsl.com"
-PORT = 8883
-USERNAME = "temps"#"emqxmqtt""xrp-trail"
-PASSWORD = "Digikey@2024"#"emqxMQTT"
-TOPIC = "test/topic" '''
+
 # Define the MQTT callback when a message is received
 def on_message(client, userdata, msg):
     try:
