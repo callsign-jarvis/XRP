@@ -24,11 +24,11 @@ def send_msg_pico(data):
         print(f"Error sending data to Pico: {e}")
 
 # MQTT configuration
-MQTT_BROKER = "2492f22e32e143fea079659ab402781e.s1.eu.hivemq.cloud"
+MQTT_BROKER = "your mqtt server code"
 MQTT_PORT = 8883
 MQTT_TOPIC = "test/topic"
 MQTT_USER = "temps"
-MQTT_PASSWORD = "Digikey@2024"
+MQTT_PASSWORD = "password"
 '''  
 # MQTT Configuration
 BROKER = ""#"u4cc4b93.ala.asia-southeast1.emqxsl.com"
