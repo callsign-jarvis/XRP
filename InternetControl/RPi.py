@@ -24,7 +24,7 @@ def send_msg_pico(data):
         print(f"Error sending data to Pico: {e}")
 
 # MQTT configuration
-MQTT_BROKER = "your mqtt server code"
+MQTT_BROKER = "your mqtt server URL"
 MQTT_PORT = 8883
 MQTT_TOPIC = "test/topic"
 MQTT_USER = "temps"
